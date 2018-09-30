@@ -1,0 +1,32 @@
+{
+  "name": "conspectus-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "apollo-server-hapi": "^2.1.0",
+    "apollo-server-koa": "^2.1.0",
+    "bcrypt": "^3.0.1",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.0",
+    "hapi": "^17.6.0",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.5.3",
+    "koa-graphql": "^0.7.5",
+    "koa-router": "^7.4.0",
+    "merge-graphql-schemas": "^1.5.7",
+    "mongoose": "^5.2.17",
+    "swagger-koa": "^2.0.0",
+    "vision": "^5.4.0"
+  }
+}
